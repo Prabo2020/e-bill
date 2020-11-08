@@ -1,0 +1,26 @@
+html,
+body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  background: #A4FBA6;
+}
+
+#calculation-page {
+ width: 420px;
+}
+
+.clearbtn {
+  margin-bottom: 10px;
+}
+
+.calbtn {
+  margin: 10px 0px 20px 0px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEB Calculator</title>
+  <link rel="stylesheet" href="style.css">
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+           
+  <script src="script.js"></script>
+</head>
+<body>
+  <h4>Domestic Electricity Bill Calculator</h4>
+    <div id="calculation-page" class="row">
+      <div class="col s12 z-depth-6 card-panel">
+        <div class="col s12 center-align">
+          No of Units Used (kWh):
+          <div class="input-field inline" >
+            <input type="text" id="unit">
+          </div>
+        </div>
+
+        <div class="col s12 right-align clearbtn">
+          <input type="button" value="Clear" class="waves-light btn" onclick="clearContent()">
+        </div>
+        <div class="col s12 right-align calbtn">
+          <input type="button" value="Calculate my bill" class="waves-light btn" onclick="billcalc()">
+        </div>
+        <div class="col s12 center-align">
+          <p>Your Bill amount is:    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <span class="printVal">00.00 </span> Rs.</p>
+        </div>
+      </div>
+    </div> 
+
+    <div class="row col s12 center-align">
+      <a href="https://ceb.lk/bill-calculation-commercial/en">More information on how my bill is calculated</a> | 
+      <div class="input-field inline" >
+        <a href="https://ceb.lk/">Go to CEB website</a>
+      </div>
+    </div>
+      <div class="row center-align">
+      Created by :  Prabodhya Weligamage
+      </div>
+
+  
+</body>
+</html>
